@@ -1,0 +1,74 @@
+body{
+    background: darkseagreen url(cover.jpg);
+}
+
+.navigation-bar{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px;
+    background-color: #0b4740;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 235px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    line-height: 30px;
+    text-align: center;
+    list-style: none;
+}
+.menu li a{
+
+    color: #be902b;
+    text-align: justify;
+    text-decoration:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.menu li:hover{
+    background:transparent;
+}
+.banner{
+    text-align: center;
+    margin-left: 35px;
+}
+.banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 100px;    
+}
+.quote{
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 63px;
+    color:#0b4740;
+}
+.button{
+    margin-left: 35vh;
+}
+button a{
+    text-decoration: none;
+    border: 5px #0b4740;
+    color: wheat;
+    background-color: #0b4740;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    
+}
